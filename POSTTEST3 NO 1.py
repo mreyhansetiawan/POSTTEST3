@@ -7,8 +7,8 @@ print("===========================")
 print("Silahkan memilih varian :")
 
 def menu() :
-	print("1. Varian 1 Harga = Rp. 2000/pcs (Beli 10 atau lebih dapat potongan 10%!)")
-	print("2. Varian 2 Harga = Rp. 2500/pcs (Beli 8 atau lebih dapat potongan 8%!)")
+	print("1. Varian 1, Harga = Rp. 2000/pcs (Beli 10 atau lebih dapat potongan 10%!)")
+	print("2. Varian 2, Harga = Rp. 2500/pcs (Beli 8 atau lebih dapat potongan 8%!)")
 	print("===========================")
 
 menu() 
@@ -45,7 +45,7 @@ elif varian == 2 :
     
     beli = int(input("Stok ada 40 pcs, anda ingin membeli : "))
     if  beli < 8 :
-        bayar = beli * harga_v1
+        bayar = beli * harga_v2
 
         print("Anda membeli :", beli, "pcs")
         print("Anda harus membayar : Rp. " , bayar)
